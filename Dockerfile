@@ -9,4 +9,4 @@
 
 FROM mongo:latest
 
-CMD ["mongod", "--nojournal", "--noprealloc", "--smallfiles"]
+CMD ["mongod", "--journal", "--noprealloc", "--smallfiles"]
